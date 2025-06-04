@@ -1,6 +1,6 @@
 import os
 from git import Repo
-from langchain.document_loaders import TextLoader
+from langchain_community.document_loaders import TextLoader
 
 def clone_and_load_repo(repo_url, local_dir="tmp_repo"):
     if os.path.exists(local_dir):
