@@ -1,4 +1,4 @@
-from langchain.vectorstores import Chroma
+from langchain_community.vectorstores import Chroma
 
 def load_vectorstore(persist_path, embeddings):
     db = Chroma(persist_directory=persist_path, embedding_function=embeddings)
