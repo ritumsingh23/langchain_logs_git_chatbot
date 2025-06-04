@@ -1,0 +1,58 @@
+2025-06-04 14:16:19 [] INFO  c.e.b.BankCustomerApiApplication - Starting BankCustomerApiApplication using Java 21.0.6 with PID 6460 (C:\Users\PAthiyannan\Workspace\bank-customer-api\target\classes started by PAthiyannan in C:\Users\PAthiyannan\Workspace\bank-customer-api)
+2025-06-04 14:16:19 [] INFO  c.e.b.BankCustomerApiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-06-04 14:16:21 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-04 14:16:21 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-04 14:16:21 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2025-06-04 14:16:21 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-04 14:16:21 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1520 ms
+2025-06-04 14:16:22 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-06-04 14:16:22 [] INFO  c.e.b.BankCustomerApiApplication - Started BankCustomerApiApplication in 3.221 seconds (process running for 3.866)
+2025-06-04 14:16:45 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-04 14:16:45 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-04 14:16:45 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-06-04 14:16:45 [653af833-fb5a-4000-a9b9-0dbb6d124dbd] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-06-04 14:17:05 [1aef9711-fb4a-4bc9-8c08-f4e63be6bc11] ERROR c.e.b.controller.CustomerController - [1aef9711-fb4a-4bc9-8c08-f4e63be6bc11][ERR404] Customer not found: 1
+2025-06-04 14:21:48 [31bdabf9-59fe-4e4e-b864-23c9c755d27a] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<?> com.example.bankcustomerapi.controller.CustomerController.createCustomer(com.example.bankcustomerapi.model.Customer)]
+2025-06-04 14:22:14 [b07e6260-d2d5-4079-b40b-dd09c20f4e9d] INFO  c.e.b.controller.CustomerController - [b07e6260-d2d5-4079-b40b-dd09c20f4e9d] Customer created: d908e6b9-ab6f-483d-96d7-294851efaafa
+2025-06-04 14:22:24 [95157db9-46d1-490f-84d7-91c996fd76b8] INFO  c.e.b.controller.CustomerController - [95157db9-46d1-490f-84d7-91c996fd76b8] Customer created: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:22:58 [451e7cff-042e-4035-ab1b-81fb8e6a47dd] INFO  c.e.b.controller.CustomerController - [451e7cff-042e-4035-ab1b-81fb8e6a47dd] Customer fetched: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:23:01 [4607cc47-6ce4-48cb-a06e-537bbc210eca] INFO  c.e.b.controller.CustomerController - [4607cc47-6ce4-48cb-a06e-537bbc210eca] Customer fetched: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:23:04 [2e7f225d-d2db-4eed-84ba-03d2b3769ded] INFO  c.e.b.controller.CustomerController - [2e7f225d-d2db-4eed-84ba-03d2b3769ded] Customer fetched: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:23:05 [5d677bc2-3b57-4268-9a18-ebc9e071cc06] INFO  c.e.b.controller.CustomerController - [5d677bc2-3b57-4268-9a18-ebc9e071cc06] Customer fetched: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:23:06 [3ed7febb-4419-42ea-87af-dcd547883513] INFO  c.e.b.controller.CustomerController - [3ed7febb-4419-42ea-87af-dcd547883513] Customer fetched: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:23:06 [8ac6e399-1767-40ff-9707-efe0ba1427b0] INFO  c.e.b.controller.CustomerController - [8ac6e399-1767-40ff-9707-efe0ba1427b0] Customer fetched: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:23:06 [3f37d716-1b8e-45c4-9c7f-9fc57e74e71c] INFO  c.e.b.controller.CustomerController - [3f37d716-1b8e-45c4-9c7f-9fc57e74e71c] Customer fetched: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:23:06 [f35641c0-bfe8-455a-901e-533c5a3f2d69] INFO  c.e.b.controller.CustomerController - [f35641c0-bfe8-455a-901e-533c5a3f2d69] Customer fetched: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:23:07 [4cef4637-7ee3-4562-914b-61a8382f0b0f] INFO  c.e.b.controller.CustomerController - [4cef4637-7ee3-4562-914b-61a8382f0b0f] Customer fetched: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:23:07 [120f868c-eff2-4d72-9032-3902cac01283] INFO  c.e.b.controller.CustomerController - [120f868c-eff2-4d72-9032-3902cac01283] Customer fetched: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:23:07 [62a32881-9163-4a79-9b9a-fd9d9248bf7a] INFO  c.e.b.controller.CustomerController - [62a32881-9163-4a79-9b9a-fd9d9248bf7a] Customer fetched: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:23:54 [bdd8163a-9d51-42b2-8d85-4aadc4a8c7fc] ERROR c.e.b.controller.CustomerController - [bdd8163a-9d51-42b2-8d85-4aadc4a8c7fc][ERR500] Simulated server error occurred
+2025-06-04 14:25:13 [17f45cc0-4b41-4b45-a623-10df7b4f526d] ERROR c.e.b.controller.CustomerController - [17f45cc0-4b41-4b45-a623-10df7b4f526d][ERR500] Simulated server error occurred
+2025-06-04 14:25:37 [1a543987-dd65-4e9f-a0fa-d1ff607af8c5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+2025-06-04 14:26:05 [52d02943-d06d-452c-abee-59f10305afb6] INFO  c.e.b.controller.CustomerController - [52d02943-d06d-452c-abee-59f10305afb6] Customer updated: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:30:19 [79374b02-082f-41cb-a841-6ee10840c52d] INFO  c.e.b.controller.CustomerController - [79374b02-082f-41cb-a841-6ee10840c52d] Customer created: 854d06e4-6f27-48fa-9cb9-689df7fa1acb
+2025-06-04 14:30:21 [c5ae9038-8f83-44f7-8db0-66fe99dee06e] INFO  c.e.b.controller.CustomerController - [c5ae9038-8f83-44f7-8db0-66fe99dee06e] Customer created: 77af6a2e-cc4d-42c4-92b2-2f9e62213f8b
+2025-06-04 14:30:23 [d2971458-717b-4f78-a74c-4c50e2c2bdfb] INFO  c.e.b.controller.CustomerController - [d2971458-717b-4f78-a74c-4c50e2c2bdfb] Customer created: 1cd2b5af-80f8-4513-ae54-ce846f9902c3
+2025-06-04 14:30:42 [e95a2d23-1ea9-4d92-8086-3b78ca621a54] INFO  c.e.b.controller.CustomerController - [e95a2d23-1ea9-4d92-8086-3b78ca621a54] Customer created: 598c657f-1d58-4f31-9785-72446991bd09
+2025-06-04 14:30:47 [db3c5460-48a5-4a42-b7c1-1cc4a7134b3e] INFO  c.e.b.controller.CustomerController - [db3c5460-48a5-4a42-b7c1-1cc4a7134b3e] Customer created: 9741b6a2-9db5-409c-8ca0-1d20afcc4add
+2025-06-04 14:30:53 [97f4eb4a-a953-43e6-b6dc-4ee93748447b] INFO  c.e.b.controller.CustomerController - [97f4eb4a-a953-43e6-b6dc-4ee93748447b] Customer created: 1ef71ec9-7dc1-487e-b6ab-28862077c60a
+2025-06-04 14:30:55 [074028e5-3f68-465e-84ad-20d60340a2e0] INFO  c.e.b.controller.CustomerController - [074028e5-3f68-465e-84ad-20d60340a2e0] Customer created: 57ab61a5-8aa0-441c-ae3f-f94498d6e2cf
+2025-06-04 14:30:56 [76454e11-28b6-450d-ab44-da8974ea221a] INFO  c.e.b.controller.CustomerController - [76454e11-28b6-450d-ab44-da8974ea221a] Customer created: 57475b0e-1e23-4583-8c8e-1682b6d477dc
+2025-06-04 14:31:10 [b659091d-c926-471e-a4e8-38f58c3431c4] INFO  c.e.b.controller.CustomerController - [b659091d-c926-471e-a4e8-38f58c3431c4] Customer updated: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:31:48 [c7249eb6-9963-40fd-aaee-8c173160425b] INFO  c.e.b.controller.CustomerController - [c7249eb6-9963-40fd-aaee-8c173160425b] Customer fetched: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:31:49 [20afafb2-1468-4f57-8fc7-b99372494a2d] INFO  c.e.b.controller.CustomerController - [20afafb2-1468-4f57-8fc7-b99372494a2d] Customer fetched: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:31:53 [25ace02a-0a16-41e8-b296-f51d5e4c370d] INFO  c.e.b.controller.CustomerController - [25ace02a-0a16-41e8-b296-f51d5e4c370d] Customer fetched: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:33:55 [7832d9dc-c349-4d7d-81a0-c9b7382e9795] INFO  c.e.b.controller.CustomerController - [7832d9dc-c349-4d7d-81a0-c9b7382e9795] Customer fetched: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:33:56 [abfb601a-44dd-45c6-a56a-fafe40865c19] INFO  c.e.b.controller.CustomerController - [abfb601a-44dd-45c6-a56a-fafe40865c19] Customer fetched: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:33:57 [c3d5fce0-8a7a-447a-82b5-5ec6483c2d20] INFO  c.e.b.controller.CustomerController - [c3d5fce0-8a7a-447a-82b5-5ec6483c2d20] Customer fetched: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:34:05 [cab79fe4-d607-40f5-9d28-6147fa1536e7] INFO  c.e.b.controller.CustomerController - [cab79fe4-d607-40f5-9d28-6147fa1536e7] Customer deleted: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:34:09 [e71d854b-b3e9-4416-b44a-1f66b0218270] ERROR c.e.b.controller.CustomerController - [e71d854b-b3e9-4416-b44a-1f66b0218270][ERR404] Delete failed, customer not found: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:34:17 [9f96a383-7a4b-458c-9331-559ff8a10884] ERROR c.e.b.controller.CustomerController - [9f96a383-7a4b-458c-9331-559ff8a10884][ERR404] Delete failed, customer not found: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:34:19 [e64b65ea-504b-42cc-90be-a968095688b2] ERROR c.e.b.controller.CustomerController - [e64b65ea-504b-42cc-90be-a968095688b2][ERR404] Delete failed, customer not found: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:34:20 [37bbf101-b4ae-4c12-819e-94ffedc1279e] ERROR c.e.b.controller.CustomerController - [37bbf101-b4ae-4c12-819e-94ffedc1279e][ERR404] Delete failed, customer not found: 3156c86c-4cd8-4d4e-ba9e-5f2803995c6b
+2025-06-04 14:34:27 [e47cb526-ceed-4030-95f1-9efdd5cf7431] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-06-04 14:34:29 [b990154f-7921-4379-8a4f-1c1a43034d8b] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-06-04 14:34:31 [d7ce45f9-a1d5-43bf-a93b-eb0f9f6aaea4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-06-04 14:34:32 [68e400dc-4754-497d-a94c-4a1c1341f7a6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-06-04 14:34:33 [c7f9e857-6395-4a76-a64d-c2e783822916] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-06-04 14:34:34 [b438621f-d406-4207-a084-5d70e8a34a53] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
