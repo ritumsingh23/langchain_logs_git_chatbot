@@ -1,0 +1,7 @@
+langchain
+openai
+chromadb
+tqdm
+python-dotenv
+PyYAML
+GitPython
