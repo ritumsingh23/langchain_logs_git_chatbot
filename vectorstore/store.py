@@ -1,6 +1,8 @@
 from ./embedder import generate_embedding
 import pymongo
 
+log_directory = "../log/"
+
 # Function to read log files and store embeddings
 def process_and_store_logs(directory):
     # Initialize Cosmos DB client (MongoDB API)
