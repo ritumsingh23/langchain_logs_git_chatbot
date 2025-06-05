@@ -1,5 +1,7 @@
-from ./embedder import generate_embedding
+from embedder import generate_embedding
 import pymongo
+import os
+from datetime import datetime
 
 log_directory = "../log/"
 
