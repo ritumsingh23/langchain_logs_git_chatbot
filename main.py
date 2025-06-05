@@ -14,7 +14,7 @@ log_docs = load_log_files("./log/")
 all_docs = code_docs + log_docs
 
 # Step 2: Embed and store
-embeddings = get_embedding_model()
+embeddings = generate_embedding()
 db = store_embeddings(all_docs, embeddings)
 
 # Step 3: Load retriever and QA chain

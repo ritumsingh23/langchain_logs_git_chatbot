@@ -10,12 +10,12 @@ import os
 import tempfile
 import git
 import shutil
-from ingest.github_loader import clone_and_load_repo
-from ingest.log_loader import load_log_files
+# from ingest.github_loader import clone_and_load_repo
+# from ingest.log_loader import load_log_files
 from vectorstore.embedder import get_embedding_model
 from vectorstore.store import store_embeddings
-from rag.retriever import load_vectorstore
-from rag.qa_chain import get_qa_chain
+from vectorstore.retriever import load_vectorstore
+from rag.vectorstore import get_qa_chain
 from dotenv import load_dotenv
 
 load_dotenv()
